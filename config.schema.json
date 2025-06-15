@@ -1,0 +1,33 @@
+{
+  "pluginAlias": "HuumSauna",
+  "pluginType": "platform",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "username": {
+        "title": "Username",
+        "type": "string",
+        "required": true
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true
+      },
+      "pollInterval": {
+        "title": "Poll Interval (seconds)",
+        "type": "number",
+        "default": 30,
+        "minimum": 10
+      },
+      "temperatureUnit": {
+        "title": "Temperature Unit",
+        "type": "string",
+        "enum": ["C", "F"],
+        "default": "C",
+        "required": true
+      }
+    }
+  }
+}
+

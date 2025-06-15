@@ -1,0 +1,19 @@
+{
+  "name": "homebridge-huum-sauna",
+  "version": "1.1.6",
+  "main": "index.js",
+  "description": "Control your Huum WiFi enabled Sauna",
+  "keywords": [
+    "homebridge-plugin",
+    "huum",
+    "sauna"
+  ],
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "hoobs": ">=4.0.0",
+    "homebridge": ">=1.6.0"
+  }
+}
+
